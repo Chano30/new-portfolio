@@ -4,6 +4,44 @@
   overflow: hidden;
   position: relative;
 
+  .wrapper{
+    position:absolute;
+    bottom: 35%;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 4;
+
+    .text-container{
+      height: 100%;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+
+      h2{
+        font-size: 3rem;
+        color: #ffffff;
+        letter-spacing: 5px;
+        margin: 0;
+      }
+
+      h6{
+        font-weight: 300;
+        font-size: 20px;
+        letter-spacing: 4px;
+        margin-top: -20px;
+      }
+    }
+  }
+
+  .slidingTextContainer{
+    font-size: 50vh;
+    position:absolute;
+    top: -100px;
+    white-space: nowrap;
+    color: #ffffff09;
+    width: 50%;
+  }
+
   .image-container{
     height: 100%;
     position: absolute;
@@ -12,4 +50,13 @@
     transform: translateX(-50%);
   }
 
+}
+
+@media (max-width: 1366px){
+  .image-container{
+    img{
+      width: 100%;
+      height: 100%;
+    }
+  }
 }
