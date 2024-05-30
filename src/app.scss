@@ -1,0 +1,31 @@
+html{
+  scroll-behavior: smooth;
+  scroll-snap-type: mandatory;
+}
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+a{
+  text-decoration: none;
+  color: inherit;
+}
+
+body{
+  background-color: #0D0E13;
+  color: lightgray;
+}
+
+section{
+  height: 100vh;
+  scroll-snap-align: center;
+}
+
+.box{
+  width: 150px;
+  height: 150px;
+  background-color: white;
+}
