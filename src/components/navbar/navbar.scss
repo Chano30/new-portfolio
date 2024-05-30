@@ -12,7 +12,27 @@
     .social-links, .page-links{
       display: flex;
       gap: 15px;
+      align-items: center;
+
+      .social-logo{
+        width: 40px;
+      }
+
+    }
+
+    .logo{
+      display: flex;
+      align-items: center;
+      gap: 5px;
     }
   }
 
+}
+
+
+.my_logo{
+  width: 40px;
+  height: 40px;
+  background-color: wheat;
+  border-radius: 50%;
 }

@@ -2,6 +2,11 @@ import React from 'react'
 import {motion} from "framer-motion"
 
 export const Test = () => {
+
+  const variants = {
+     
+  }
+
   return (
     <div className='course'>
       <motion.div className='box' 
